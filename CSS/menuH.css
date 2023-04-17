@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    justify-content: space-between ;
+    padding: 1.5rem 6rem;
+}
+
+.menuesquerdo{
+    display: flex;
+    align-items: center;
+}
+
+.menuEsquerdo h1{
+    color: aqua;
+}
+
+.menuLista{
+    display: flex;
+    align-items: center;
+}
