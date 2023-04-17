@@ -17,3 +17,18 @@
     display: flex;
     align-items: center;
 }
+
+.menuLista ul{
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.itemMenu{
+    margin: 0 1px;
+}
+
+.linkintem{
+    text-decoration: black;
+}
