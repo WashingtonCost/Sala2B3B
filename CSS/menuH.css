@@ -10,7 +10,7 @@
 }
 
 .menuEsquerdo h1{
-    color: aqua;
+    color: black;
 }
 
 .menuLista{
@@ -29,10 +29,38 @@
     margin: 0 1px;
 }
 
-.linkintem{
+.linkItem{
     text-decoration: none;
     font-size: 14pt;
     font-weight: 400;
-    color: brown;
+    color: white;
     padding: 0 15px;
+    
+}
+
+.menuDireito a{
+    border: none;
+    background-color: none;
+    padding: 8px 13px;
+    border-radius: 4px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menuBotao{
+    display: none;
+}
+
+.respMenu{
+    display: none;
+}
+
+@media screen and (max-width: 740px) { 
+    .menu{
+        padding: 1.5rem 4rem;
+    }
+    
+    .menuLista{
+        display: none;
+    }
 }
