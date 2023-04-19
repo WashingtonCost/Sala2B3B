@@ -63,4 +63,38 @@
     .menuLista{
         display: none;
     }
+
+    .menuDireito{
+        display: none;
+    }
+
+    .menuBotao{
+        display: block;
+    }
+
+    .menuBotao button{
+        background-color: transparent;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .respMenu ul{
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        padding-bottom: 1rem;
+        list-style: none;
+    }
+
+    .respMenu .itemMenu{
+        display: block;
+        padding: 1.2rem;
+    }
+
+    .abrir{
+        display: block;
+    }
+
+    
 }
